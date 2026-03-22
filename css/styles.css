@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input, select {
+    margin-bottom: 12px;
+    padding: 8px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#usernameError, #passwordError, #zipError, #suggestedPwd {
+    font-weight: bold;
+}
+
+span {
+    margin-left: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+.radio-group {
+    margin-bottom: 12px;
+}
+
+#city, #latitude, #longitude {
+    color: #34495e;
+}
+
+form br {
+    line-height: 1.8;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    color: blue;
+    border-top: 2px solid white;
+}
+
+.footer p {
+    margin: 5px;
+    font-size: 14px;
+}

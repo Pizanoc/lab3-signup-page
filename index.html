@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Sign Up</h1>
+
+    <form id="signupForm" action="welcome.html">
+        First Name:
+        <input type="text" name="fName"><br>
+
+        Last Name:
+        <input type="text" name="lName"><br>
+
+        Gender:
+        <input type="radio" name="gender" value="m"> Male
+        <input type="radio" name="gender" value="f"> Female<br>
+
+        Zip Code:
+        <input type="text" id="zip" name="zip">
+        <span id="zipError"></span><br>
+
+        City: <span id="city"></span><br>
+        Latitude: <span id="latitude"></span><br>
+        Longitude: <span id="longitude"></span><br><br>
+
+        State:
+        <select id="state" name="state"></select><br>
+
+        Select a County:
+        <select id="county" name="county"></select><br>
+
+        Desired Username:
+        <input type="text" id="username" name="username">
+        <span id="usernameError"></span><br><br>
+
+        Password:
+        <input type="password" id="password" name="password">
+        <span id="suggestedPwd"></span><br>
+
+        Type Password Again:
+        <input type="password" id="passwordAgain" name="passwordAgain">
+        <span id="passwordError"></span><br><br>
+
+        <input type="submit" value="Sign up!">
+    </form>
+
+    <script src="js/script.js"></script>
+	<footer class="footer">
+    <p>CST336 Internet Programming. 2026© Pizano</p>
+    <p>Disclaimer: The information in this webpage is fictitious.</p>
+</footer>
+</body>
+</html>
